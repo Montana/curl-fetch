@@ -27,7 +27,7 @@ cd curl-7.79.0 || exit
 
 # Configure curl
 echo "Configuring..."
-if ./configure; then
+if ./configure --without-ssl; then
     echo "Configuration complete."
 else
     echo "Error in configuration."
