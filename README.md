@@ -1,4 +1,6 @@
 # curl-fetch
+[![Build Status](https://app.travis-ci.com/Montana/curl-fetch.svg?branch=master)](https://app.travis-ci.com/Montana/curl-fetch)
+
 A recursive bash script that fetches `curl` using `wget` which is another UNIX tool to fetch outside binaries and other things.
 
 <br>![curl-fetch (1)](https://github.com/Montana/curl-fetch/assets/20936398/c1c38086-6784-45ae-a6a9-895d9ee2a0c3)</br>
