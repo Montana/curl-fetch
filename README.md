@@ -1,8 +1,8 @@
 # curl-fetch
-A repository for comedy. A recursive bash script that fetches `curl` using `wget` which is another UNIX tool to fetch outside binaries and other things.
+A recursive bash script that fetches `curl` using `wget` which is another UNIX tool to fetch outside binaries and other things.
 
 ## What is `curl-fetch` 
-It's simple, it's a bash script that fetches curl, using wget. It can't get anymore recursive than this. Code can be funny too!
+It's simple, it's a bash script that fetches curl, using wget. It can't get anymore recursive than this. It also has a `reversal` mode, where you can fetch wget with curl. 
 
 ## Usage
 
