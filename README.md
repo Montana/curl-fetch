@@ -10,7 +10,7 @@ Open up a terminal and run:
 
 ```bash
 chmod +x ./curl_fetch.sh
-./curl_fetc.sh
+./curl_fetch.sh
 ```
 
 ## Flowchart 
