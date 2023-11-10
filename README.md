@@ -1,6 +1,9 @@
 # curl-fetch
 A recursive bash script that fetches `curl` using `wget` which is another UNIX tool to fetch outside binaries and other things.
 
+<br>![curl-fetch (1)](https://github.com/Montana/curl-fetch/assets/20936398/c1c38086-6784-45ae-a6a9-895d9ee2a0c3)</br>
+
+
 ## What is `curl-fetch` 
 It's simple, it's a bash script that fetches curl, using wget. It can't get anymore recursive than this. It also has a `reversal` mode, where you can fetch wget with curl. 
 
@@ -31,11 +34,6 @@ Sometimes fetching curl using wget may not work, in this scenario you'll want to
 
 fetch_wget
 ```
-
-## Flowchart 
-
-![curl-fetch](https://github.com/Montana/curl-fetch/assets/20936398/8cceb847-32cd-46f5-acde-3d8441954cbe)
-
 
 ## Upcoming features in `curl-fetch v2.0`
 
