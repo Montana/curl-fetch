@@ -34,7 +34,8 @@ fetch_wget
 
 ## Flowchart 
 
-<img width="768" alt="curl-fetch" src="https://github.com/Montana/curl-fetch/assets/20936398/31c3b716-1359-49a7-92da-4cf6863a85a7">
+![curl-fetch](https://github.com/Montana/curl-fetch/assets/20936398/8cceb847-32cd-46f5-acde-3d8441954cbe)
+
 
 ## Upcoming features in `curl-fetch v2.0`
 
