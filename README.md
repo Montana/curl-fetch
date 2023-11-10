@@ -17,6 +17,22 @@ Open up a terminal and run:
 chmod +x ./curl_fetch.sh
 ./curl_fetch.sh # You may want to disable TLS if this fails, just add the --without-ssl conditional. 
 ```
+If you want TLS, you can select from these conditionals to add: 
+
+```bash
+  --with-amissl
+  --with-bearssl
+  --with-gnutls
+  --with-mbedtls
+  --with-mesalink
+  --with-nss
+  --with-openssl (also works for BoringSSL and libressl)
+  --with-rustls
+  --with-schannel
+  --with-secure-transport
+  --with-wolfssl
+```
+So say if you pick `--with-openssl` the command would look like this: ```./curl_fetch.sh --with-openssl```.
 
 ## Reversal method 
 
