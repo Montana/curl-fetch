@@ -13,6 +13,25 @@ chmod +x ./curl_fetch.sh
 ./curl_fetch.sh
 ```
 
+## Reversal method 
+
+Sometimes fetching curl using wget may not work, you'll want to try using curl to fetch wget, then again retrying fetching curl using wget to the latest version:
+
+```bash
+ # Set the URL for downloading wget
+    WGET_URL="https://ftp.gnu.org/gnu/wget/wget-latest.tar.gz"
+    WGET_TARBALL="wget.tar.gz"
+
+    if curl -o "${WGET_TARBALL}" "${WGET_URL}"; then
+        echo "wget downloaded successfully with curl. The circle is complete."
+    else
+        echo "Failed to download wget with curl. The irony!"
+    fi
+}
+
+fetch_wget
+```
+
 ## Flowchart 
 
 <img width="768" alt="curl-fetch" src="https://github.com/Montana/curl-fetch/assets/20936398/31c3b716-1359-49a7-92da-4cf6863a85a7">
