@@ -15,7 +15,7 @@ chmod +x ./curl_fetch.sh
 
 ## Reversal method 
 
-Sometimes fetching curl using wget may not work, you'll want to try using curl to fetch wget, then again retrying fetching curl using wget to the latest version:
+Sometimes fetching curl using wget may not work, you'll want to try using wget to fetch curl, then again retrying fetching curl using wget to the latest version:
 
 ```bash
  # Set the URL for downloading wget
