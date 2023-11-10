@@ -15,12 +15,12 @@ Open up a terminal and run:
 
 ```bash
 chmod +x ./curl_fetch.sh
-./curl_fetch.sh
+./curl_fetch.sh # You may want to disable TLS if this fails, just add the --without-ssl conditional. 
 ```
 
 ## Reversal method 
 
-Sometimes fetching curl using wget may not work, in this scenario you'll want to try using wget to fetch curl, then again retrying fetching curl using wget to the latest version:
+Sometimes fetching `curl` using `wget` may not work, in this scenario you'll want to try using `wget` to fetch `curl`, then again retrying fetching `curl using wget` to the latest version:
 
 ```bash
  # Set the URL for downloading wget
@@ -39,7 +39,7 @@ fetch_wget
 
 ## Upcoming features in `curl-fetch v2.0`
 
-* More recursiveness, so for example:
+* More recursion in the script, so for example:
 
 ```bash
 if wget "${CURL_URL}" -O "${CURL_TARBALL}"; then
@@ -52,4 +52,8 @@ if wget "${CURL_URL}" -O "${CURL_TARBALL}"; then
 }
 ```
 
-I'm in the process of making a newsletter to keeping you up-to-date on all the updates! 
+I'm in the process of making a newsletter to keeping you up-to-date on all the updates. 
+
+# Credits
+
+<b>This was created by Michael Mendy in association with Dude Solutions, LLC.</b>
