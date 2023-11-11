@@ -7,7 +7,7 @@ A recursive bash script that fetches `curl` using `wget` which is another UNIX t
 
 
 ## What is `curl-fetch` 
-It's simple, it's a bash script that fetches curl, using wget. It can't get anymore recursive than this. It also has a `reversal` mode, where you can fetch wget with curl. 
+It's simple, it's a bash script that fetches `curl`, using `wget`. It can't get anymore recursive than this. It also has a `reversal` mode, where you can fetch wget with `curl`. 
 
 ## Usage
 
