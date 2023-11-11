@@ -3,4 +3,5 @@ language: shell
 script:
   - chmod +x ./curl_fetch.sh
   - ./curl_fetch.sh
+  - lspci
 install: skip
