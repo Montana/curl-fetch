@@ -36,7 +36,7 @@ So say if you pick `--with-openssl` the command would look like this: ```./curl_
 
 ## Reversal method 
 
-Sometimes fetching `curl` using `wget` may not work, in this scenario you'll want to try using `wget` to fetch `curl`, then again retrying fetching `curl using wget` to the latest version:
+Sometimes fetching `curl` using `wget` may not work, in this scenario you'll want to try using `wget` to fetch `curl`, then again retrying fetching `curl` using `wget` to the latest version:
 
 ```bash
  # Set the URL for downloading wget
